@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE releve SYSTEM "releve.dtd">
+<releve RIB="12345678">
+    <dateReleve>2023-10-11</dateReleve>   
+    <solde>5000</solde>
+    <operations dateDebut="2023-10-12" dateFin="2023-10-13">
+        <operation date="2023-10-12" montant="3000" description="retrait" type="DEBIT"/>
+        <operation date="2023-10-12" montant="500" description="retrait" />
+        <operation date="2023-10-12" montant="500" description="retrait" type="CREDIT"/>
+    </operations>
+</releve>
